@@ -11,7 +11,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: "https://lantern-chatting-app.onrender.com/",
-    methods: ["GET", "POST"],
+    // methods: ["GET", "POST"],
   },
 });
 
